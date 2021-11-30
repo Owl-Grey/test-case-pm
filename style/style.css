@@ -270,6 +270,7 @@ main {
   border-radius: 5px;
 }
 .blog_theme:hover svg {
+  margin-right: -20px;
   width: 450px;
   height: 600px;
   transition-duration: 0.3s;
@@ -422,12 +423,6 @@ main {
   position: sticky !important;
   right: 237px;
   top: 80px;
-}
-
-.static {
-  position: absolute;
-  right: 500px;
-  bottom: 0;
 }
 
 .visible {
