@@ -110,7 +110,27 @@ main{
     }
   }
 }
-
+.menu_list{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 4px 8px 6px rgb(32 32 51 / 4%);
+    padding: 15px;
+    border-radius: 10px;
+    a{
+      font-weight: 400 !important;
+      padding: 0 10px;
+      margin: 10px 0;
+    }
+    ul{
+      list-style-type: none;
+      padding: 0;
+      li{
+        margin: 10px 0;
+      }
+    }
+}
 .breadcrumb-item{
   a{
   text-decoration: none;
@@ -450,6 +470,9 @@ main{
   top:0;
   box-shadow: 0 -1px 10px rgb(0 0 0 / 7%);
   margin-top: -107px;
+  .menu_list{
+    // top: 50px !important;
+  }
 }
 
 .sticky{
@@ -461,4 +484,9 @@ main{
 .visible{
   transition-duration: .7s;
   margin: 0;
+}
+
+
+.visible_menu{
+  display: block;
 }

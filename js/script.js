@@ -60,9 +60,16 @@ $(window).scroll(function() {
 
    if (scroll_height>=(header_offset)){$('.sticky_header').addClass('visible')}
    else{$('.sticky_header').removeClass('visible')}
+});
 
 
 
-
-
-})
+$('.header_menu-about').hover(
+  function(){
+    console.log($(this))
+  $(this).children('.menu_list').addClass('visible_menu');
+},
+  function(){
+    $(this).children('.menu_list').removeClass('visible_menu');
+  }
+)

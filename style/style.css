@@ -115,6 +115,28 @@ main {
   text-decoration: none;
 }
 
+.menu_list {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 4px 8px 6px rgba(32, 32, 51, 0.04);
+  padding: 15px;
+  border-radius: 10px;
+}
+.menu_list a {
+  font-weight: 400 !important;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+.menu_list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu_list ul li {
+  margin: 10px 0;
+}
+
 .breadcrumb-item a {
   text-decoration: none;
   color: #7d7d7e !important;
@@ -418,7 +440,6 @@ main {
   box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.07);
   margin-top: -107px;
 }
-
 .sticky {
   position: sticky !important;
   right: 237px;
@@ -428,6 +449,10 @@ main {
 .visible {
   transition-duration: 0.7s;
   margin: 0;
+}
+
+.visible_menu {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
